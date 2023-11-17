@@ -15,7 +15,7 @@ output "computer_name" {
 
 output "public_ip_address" {
   description = "Public IP Address of the Virtual Machine."
-  value       = try(azurerm_public_ip.public_ip.ip_address, null)
+  value       = one(azurerm_public_ip.public_ip[*].ip_address)
 }
 
 output "private_ip_address" {
