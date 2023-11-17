@@ -76,5 +76,11 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_computer_name"></a> [computer\_name](#output\_computer\_name) | The Comuputer/Host name of the Virtual Machine. |
+| <a name="output_id"></a> [id](#output\_id) | The ID of the Virtual Machine. |
+| <a name="output_name"></a> [name](#output\_name) | The Name of the Virtual Machine. |
+| <a name="output_private_ip_address"></a> [private\_ip\_address](#output\_private\_ip\_address) | Private IP Address of the Virtual Machine. |
+| <a name="output_public_ip_address"></a> [public\_ip\_address](#output\_public\_ip\_address) | Public IP Address of the Virtual Machine. |
 <!-- END_TF_DOCS -->
